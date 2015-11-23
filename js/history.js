@@ -27,7 +27,7 @@ if (!!(window.history && history.pushState)) {
   })();
 
   var updateCrumbs = function() {
-    window.document.title = window.location.pathname;
+    window.document.title = 'Open Desire Project \u2013 Downloads: ' + window.location.pathname;
     setTimeout(function () {
       var loc = window.location.pathname;
       var segments = loc.split('/');

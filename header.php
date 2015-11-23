@@ -6,7 +6,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Open Desire Project &ndash; Downloads</title>
-  <!--<link rel="shortcut icon" href="/fancyindex/images/favicon.ico">
+  <link rel="shortcut icon" href="/fancyindex/images/favicon.ico">
   <link rel="icon" sizes="16x16 32x32 64x64" href="/fancyindex/images/favicon.ico">
   <link rel="icon" type="image/png" sizes="196x196" href="/fancyindex/images/favicon-192.png">
   <link rel="icon" type="image/png" sizes="160x160" href="/fancyindex/images/favicon-160.png">
@@ -22,7 +22,7 @@
   <link rel="apple-touch-icon" sizes="120x120" href="/fancyindex/images/favicon-120.png">
   <link rel="apple-touch-icon" sizes="76x76" href="/fancyindex/images/favicon-76.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/fancyindex/images/favicon-152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/fancyindex/images/favicon-180.png">-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/fancyindex/images/favicon-180.png">
   <link rel="stylesheet" href="/fancyindex/css/fancyindex.css">
   <script>
     window.document.title = 'Open Desire Project \u2013 Downloads: ' + window.location.pathname;

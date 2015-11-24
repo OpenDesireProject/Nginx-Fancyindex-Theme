@@ -11,7 +11,7 @@
       <input type="image" src="/fancyindex/images/paypal-button.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
       <img alt="" border="0" src="/fancyindex/images/paypal-pixel.gif" width="1" height="1">
     </form>
-    <p class="paypal">Every donation is appreciated! Server renewal 30/06/2016.</p>
+    <p class="paypal">Every donation is appreciated! Server renewal 31/07/2016.</p>
     </div>
 </footer>
 <script>

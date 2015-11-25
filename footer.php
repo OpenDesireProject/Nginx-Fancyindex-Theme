@@ -10,7 +10,7 @@ $free_arr = explode("\n", $free);
 $mem = explode(" ", $free_arr[1]);
 $mem = array_filter($mem);
 $mem = array_merge($mem);
-$memory_usage = round($mem[2] / $mem[1] * 100, 1);
+$memory_usage = round(($mem[2] - $mem[4]) / $mem[1] * 100, 1);
 
 /* Storage */
 $storage_total = disk_total_space('/');

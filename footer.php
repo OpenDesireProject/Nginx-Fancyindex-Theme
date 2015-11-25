@@ -1,4 +1,10 @@
 <?php
+/* Storage */
+$storage_total = disk_total_space('/');
+$storage_free = disk_free_space('/');
+$storage_usage = round(($storage_total - $storage_free) / $storage_total * 100, 1);
+
+/* Network */
 $nfile = fopen('/tmp/network_utilization', 'r');
 $net_past = explode(" ", fgets($nfile));
 $net_now = explode(" ", fgets($nfile));
@@ -6,7 +12,7 @@ fclose($f);
 $net_util = round(($net_now[2] - $net_past[2]) / ($net_now[0] - $net_past[0]) / 12500000 * 100, 1);
 ?>
 <footer>
-    <h2><!--| Load: 1% | RAM: 36.8% | Disk: 77.5% | Network: 1.8%-->| System stats coming back soon. | Network: <?php echo $net_util; ?>% | <a href="/stats/index.html">Bandwidth Statistics</a> |</h2>
+    <h2><!--| Load: 1% | RAM: 36.8% | Disk: 77.5% | Network: 1.8%-->| System stats coming back soon. | Storage: <?php echo $storage_usage; ?>% | Network: <?php echo $net_util; ?>% | <a href="/stats/index.html">Bandwidth Statistics</a> |</h2>
     <div class="note">
     <p><b>NOTE:</b> Zip file downloads are limited to 2 connections per IP address (i.e. you can download 2 files simultaneously). Please, don't use download managers that try to form multiple connections for the same file. If you keep hitting the limit constantly, you will receive a temporary ban for the whole server.</p>
 </div>

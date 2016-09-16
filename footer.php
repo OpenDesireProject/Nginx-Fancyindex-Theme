@@ -37,7 +37,7 @@ $net_util = round(($net_now[2] - $net_past[2]) / ($net_now[0] - $net_past[0]) / 
       <input type="image" src="/fancyindex/images/paypal-button.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
       <img alt="" border="0" src="/fancyindex/images/paypal-pixel.gif" width="1" height="1">
     </form>
-    <p class="paypal">Every donation is appreciated! Server renewal 31/12/2016.</p>
+    <p class="paypal">Every donation is appreciated! Server renewal 31/12/2016. Domain renewal 30/11/2016.</p>
     </div>
 </footer>
 <script>
